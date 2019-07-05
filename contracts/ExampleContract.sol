@@ -1,5 +1,6 @@
-pragma solidity ^0.4.21;
+pragma solidity ^0.5.8;
 
+// Set and get a number
 contract ExampleContract {
     uint public someNumber;
 
@@ -8,6 +9,6 @@ contract ExampleContract {
     }
 
     function addNumbers(uint256 _number) view public returns (uint256) {
-        returns someNumber + _number;
+        return someNumber + _number;
     }
 }

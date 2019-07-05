@@ -1,0 +1,14 @@
+{
+  "name": "callingOtherContracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AdvaithD/AtomicTransactions.git",
+  "author": "Advaith Doosa <advaithseo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bignumber.js": "4.1.0"
+  },
+  "scripts": {
+    "compile": "truffle compile"
+  }
+}
